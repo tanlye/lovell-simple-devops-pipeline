@@ -1,16 +1,3 @@
-
-# variable "lambda_function_name" {
-#   description = "Name of lambda function"
-#   type        = string
-#   default     = "group_02_lambda_new"
-# }
-
-# variable "lambda_file_name" {
-#   description = "Name of lambda file to be zipped"
-#   type        = string
-#   default     = "group_02_collab_lambda_function"
-# }
-
 variable "s3bucketname" {
   description = "The name of the S3 bucket created"
   type        = string
