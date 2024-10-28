@@ -50,4 +50,4 @@ jobs:
      run: sleep 360
 
    - name: Terraform Destroy
-     run: terraform destroy -no-color -auto-approve --var s3bucketname=${{ vars.s3bucketname }}
+     run: terraform destroy -no-color -auto-approve 
